@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+* {
+  margin: 0.5rem 0;
+}
+
+body {
+  background: #1a1a1a;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #ff891a;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+a:hover {
+  color: #ff1250;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+button {
+  background: black;
+  color: #fff;
+  border-radius: 1.5rem;
+  border: 1px solid transparent;
+  padding: 0.6em 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:active {
+  background-color: #743800;
+}
+button:hover {
+  border-color: #ff891a;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.partygoers {
+  font-size: 1.6rem;
+}
+
+.welcome-text {
+  margin-top: 1em;
+  font-size: 1.3em;
+}
+
+.welcome-text > p {
+  margin: 0.2em;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-self: center;
+}
+
+.app-pages {
+  display: flex;
+  width: fit-content;
+  align-self: center;
+  gap: 0.5em;
+  margin: 0.5em 0;
+}
+
+.app-page {
+  text-transform: capitalize;
+}
+
+.app-active-page {
+  text-transform: capitalize;
+  background-color: #ff4f18;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.next-events {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+  align-items: center;
+  border-radius: 8px;
+  gap: 0.5em;
+}
+
+.next-events > * {
+  padding: 0;
+  margin: 0;
+}
+
+.event-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.example-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.example-info > * {
+  margin: 0;
+  padding: 0;
+}
+
+#partyspace {
+  padding: 2rem;
+}
